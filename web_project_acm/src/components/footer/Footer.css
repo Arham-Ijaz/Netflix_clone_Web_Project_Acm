@@ -1,0 +1,56 @@
+.social {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.social .socialsize {
+    width: 40px;
+    height: 40px;
+}
+
+#you {
+    width: 40px;
+    height: 50px;
+}
+
+.foot_a {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    margin: 0 0 14px;
+    padding: 0;
+
+
+}
+
+.footer ul li {
+    display: flex;
+    list-style: none;
+
+}
+
+.foot_a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot_li {
+    box-sizing: border-box;
+    flex: 0 0 50%;
+    list-style-type: none;
+    margin-bottom: 16px;
+    padding-right: 22px;
+}
+
+.footer {
+    margin: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+#a1 {
+    margin-top: 5%;
+}

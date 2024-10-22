@@ -1,0 +1,49 @@
+.hero {
+    display: flex;
+
+
+}
+
+#banner {
+    padding: 0% 5%;
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+#bannertext {
+    position: absolute;
+    top: 40%;
+    padding-left: 15%;
+    width: 40%;
+    z-index: 1;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+}
+
+.playbutton {
+    display: flex;
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+    height: 10%;
+    font-size: small;
+    text-align: center;
+    align-items: center;
+
+}
+
+.buttondiv {
+    gap: 5%;
+}
+
+#imgtxt {
+    width: 100%;
+
+}

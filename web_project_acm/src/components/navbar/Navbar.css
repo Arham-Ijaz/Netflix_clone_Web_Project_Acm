@@ -1,0 +1,140 @@
+#diva {
+    position: relative;
+    background-image: linear-gradient(180deg, rgb(0, 0, 0, 0.7) 10%, transparent);
+    display: flex;
+    width: 100%;
+}
+
+#nav_bar {
+    padding: 0%;
+    display: flex;
+    font-size: 14px;
+    color: aliceblue;
+    background-color: transparent;
+    z-index: 1;
+
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 40px;
+}
+
+#logoSize {
+    margin-left: -300px;
+}
+
+.nav_left {
+    width: min-content;
+    padding: 20px 6%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    color: aliceblue;
+
+    z-index: 1;
+}
+
+.nav_right {
+    padding-left: 50px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: aliceblue;
+    z-index: 1;
+
+}
+
+.nav_left img {
+    width: 90px;
+}
+
+.nav_left li {
+    font-size: 20px;
+
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    width: max-content;
+
+}
+
+.nav_left ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+.nav_left ul li {
+    cursor: pointer;
+}
+
+
+
+.nav_right .icon {
+
+    width: 20px;
+    cursor: pointer;
+
+}
+
+.nav_right .search {
+
+    width: 30px;
+
+
+}
+
+.profile_icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    position: relative;
+}
+
+#dropdown {
+
+    width: 30px;
+
+}
+
+
+#profile {
+
+    width: 40px;
+}
+
+.nav_bar .signout {
+    position: absolute;
+
+    z-index: 1;
+
+
+}
+
+.signout {
+    font-size: 18px;
+    height: 40px;
+    width: max-content;
+    cursor: pointer;
+    border-radius: 2px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 6%;
+    color: aliceblue;
+    background-color: #191919;
+    display: none;
+    text-decoration: underline;
+
+}
+
+.profile_icon:hover .signout {
+    display: block;
+
+}
