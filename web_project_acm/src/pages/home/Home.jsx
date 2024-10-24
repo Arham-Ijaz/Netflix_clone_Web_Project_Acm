@@ -5,6 +5,8 @@ import Background from '../../images/background.png'
 import backgroundtxt from '../../images/herotxt_img.png'
 import Footer from '../../components/footer/Footer'
 import Player from '../player/Player'
+import Login from '../../pages/home/login/login'
+
 const Home = () => {
   return (
     <div id=' maindiv' className='Home'>
@@ -39,6 +41,7 @@ const Home = () => {
       <Player />
 
       <Footer />
+      <Login/>
     </div>
 
   )

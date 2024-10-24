@@ -8,6 +8,7 @@ import dropdown from '../../images/dropdown.png'
 
 
 
+
 const Navbar = () => {
   return (
     <nav id='diva' className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -42,8 +43,11 @@ const Navbar = () => {
               <img src={profile} id='profile' className="icon mx-2" alt="" />
               <img src={dropdown} id='dropdown' alt="" />
               <div className='signout'>
-                <button >Sign Out of Netflix</button>
-
+              <button >
+             
+                Sign Out of Netflix
+               
+                </button>
               </div>
             </div>
           </div>
