@@ -11,11 +11,10 @@ import dropdown from '../../images/dropdown.png'
 
 const Navbar = () => {
   return (
-    <nav id='diva' className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id='diva' className="h-20 navbar navbar-expand-lg navbar-dark bg-dark ">
       < div id='nav_bar' className="container-fluid "  >
         <div className='nav_left '>
-
-          <img className="navbar-brand logo" src={logo} alt="" />
+          <img className=" logo  navbar-brand   " src={logo} alt="" />
           <div className="collapse navbar-collapse" id="navbarNav">
 
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -42,11 +41,10 @@ const Navbar = () => {
 
               <img src={profile} id='profile' className="icon mx-2" alt="" />
               <img src={dropdown} id='dropdown' alt="" />
+
               <div className='signout'>
-              <button >
-             
-                Sign Out of Netflix
-               
+                <button >
+                  Sign Out of Netflix
                 </button>
               </div>
             </div>
